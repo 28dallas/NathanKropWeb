@@ -201,7 +201,7 @@ export default function Hero() {
               textTransform: 'uppercase',
             }}
           >
-            Nathan Krop
+            Neithan.K
           </span>
         </div>
       </div>

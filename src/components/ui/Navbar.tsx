@@ -103,6 +103,60 @@ export default function Navbar() {
       >
         Hire Me
       </a>
+      {/* Mobile menu button */}
+      <button
+        aria-label="Toggle menu"
+        onClick={() => setMenuOpen(!menuOpen)}
+        style={{
+          display: 'none',
+          background: 'none',
+          border: 'none',
+          color: 'var(--paper)',
+          fontSize: '1.4rem',
+          cursor: 'pointer',
+          padding: '0.25rem',
+        }}
+        className="mobile-menu-btn"
+      >
+        {menuOpen ? '✕' : '☰'}
+      </button>
+
+      {/* Mobile dropdown */}
+      {menuOpen && (
+        <div
+          style={{
+            position: 'fixed',
+            top: '56px',
+            left: 0,
+            right: 0,
+            background: 'rgba(10,10,8,0.97)',
+            borderBottom: '1px solid var(--border)',
+            padding: '1.5rem',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '1.25rem',
+            zIndex: 99,
+          }}
+        >
+          {navLinks.map(({ href, label }) => (
+            <a
+              key={href}
+              href={href}
+              onClick={() => setMenuOpen(false)}
+              style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.75rem',
+                letterSpacing: '0.18em',
+                textTransform: 'uppercase',
+                color: 'var(--muted)',
+                textDecoration: 'none',
+              }}
+            >
+              {label}
+            </a>
+          ))}
+        </div>
+      )}
     </header>
   )
 }

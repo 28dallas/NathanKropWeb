@@ -2,7 +2,7 @@
 // Edit this file to update all content across the portfolio.
 
 export const siteConfig = {
-  name: 'Nathan Krop',
+  name: 'Neithan.K',
   aliases: ['NatePrince'],
   title: 'Full-Stack Engineer & Creative Dev',
   tagline: 'Building clean code that tells a story.',

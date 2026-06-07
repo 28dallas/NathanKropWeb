@@ -2,12 +2,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Nathan Krop — Full-Stack Engineer & Creative Artist',
+  title: 'Neithan.K Portfolio — Full-Stack Engineer & Creative Dev',
   description:
-    'Portfolio of Nathan Krop (PrinceBreezy / NatePrince) — Full-Stack Software Engineer, Media Creator, and Writer based in Nairobi & Eldoret, Kenya.',
+    'Portfolio of Neithan.K (NatePrince) — Full-Stack Software Engineer, Media Creator, and Writer based in Nairobi & Eldoret, Kenya.',
   keywords: [
-    'Nathan Krop',
-    'PrinceBreezy',
+    'Neithan K',
     'NatePrince',
     'Full-Stack Engineer',
     'Next.js',
@@ -17,9 +16,9 @@ export const metadata: Metadata = {
     'Software Engineer',
     'Web Developer',
   ],
-  authors: [{ name: 'Nathan Krop', url: 'https://github.com/28dallas' }],
+  authors: [{ name: 'Neithan K', url: 'https://github.com/28dallas' }],
   openGraph: {
-    title: 'Nathan Krop — Full-Stack Engineer & Creative Artist',
+    title: 'Neithan.K Portfolio — Full-Stack Engineer & Creative Dev',
     description: 'Building clean code that tells a story.',
     type: 'website',
   },
