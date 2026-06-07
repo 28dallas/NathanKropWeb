@@ -213,9 +213,9 @@ export const projects = [
 export const creativeItems = [
   {
     icon: '🎵',
-    title: 'Music & Recording Artist',
+    title: 'Audio Production & Photography',
     description:
-      'Rapper and performer as PrinceBreezy / NatePrince. Motivational content focused on growth, ambition, and East African identity.',
+      'Get cool and Professional Audio production and Quality Photos & Motivational content focused on growth, ambition, and East African identity.',
   },
   {
     icon: '🎬',

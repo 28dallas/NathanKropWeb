@@ -54,7 +54,8 @@ export default function Creative() {
                 fontFamily: 'var(--font-sans)',
               }}
             >
-              As PrinceBreezy / NatePrince, I create music, rap, and
+              I create Content, Softwares, Apps, Videos and edit photos. I also
+              do Ads and Search Engine Optimization (SEO), music, rap, and
               motivational content — bringing the same discipline and
               intentionality to creative work as to engineering. Reliable
               freelance delivery on Upwork &amp; Fiverr.
