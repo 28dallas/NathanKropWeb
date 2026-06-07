@@ -9,6 +9,10 @@ export const siteConfig = {
   location: 'Nairobi & Eldoret, Kenya',
   email: 'neithank47@gmail.com',
   github: 'https://github.com/28dallas',
+  whatsapp: 'https://wa.me/254702605566',
+  tiktok: 'https://www.tiktok.com/@apex_bluesky?_r=1&_t=ZG-970Y8z0e6nA',
+  facebook: 'https://www.facebook.com/share/1CBD6RLuBe/',
+  instagram: 'https://www.instagram.com/tbagdallas?igsh=MWhxYWRvZThyN2thcQ==',
   livePortfolio: 'https://nathankrop.dev', // update when live
 }
 
